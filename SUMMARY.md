@@ -14,7 +14,7 @@
 
 
 * Resizing
-* [Resizing](/scale-crop/resizing.md)
+* [Resizing](/resize/resizing.md)
 
 
 * Applying effects and filters
