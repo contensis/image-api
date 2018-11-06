@@ -13,8 +13,11 @@
 * [Focal crop](/crop/focal-crop.md)
 
 
-* Resizing
-* [Resizing](/resize/resizing.md)
+* Size
+* [Resizing](/size/resizing.md)
+* [Stretch](/size/fit-stretch.md)
+* [Fill](/size/fit-fill.md)
+
 
 
 * Applying effects and filters
@@ -24,9 +27,9 @@
 * [Flip](/effects/flip.md)
 
 
-* Changing formats
-* [Changing format](/changing-formats/changing-format.md)
-* [Image quality](/changing-formats/image-quality.md)
+* Format and quality
+* [Format](/format-quality/format.md)
+* [Quality](/format-quality/quality.md)
 
 
 * Responsive images

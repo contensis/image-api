@@ -1,9 +1,10 @@
 # Changing format
 
-## Original
+The format `format` or `f` parameter enables the source image to be converted from one format to another. Valid values for the `format` parameter are gif, png, jpg, and webp.
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
+The source image can be any of the following image formats: gif, png, jpeg, and webp.
 
+`https://zenhub.zengenti.com/image-examples/tree-frog.jpg?format=png`
 
 ## Format PNG
 
