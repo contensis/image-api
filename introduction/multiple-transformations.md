@@ -16,7 +16,7 @@ Transformations can be chained together to apply multiple changes to an image.
 
 #### Width
 
-![](https://preview-develop.cloud.contensis.com/image-library/Stock-Images/artists-works.jpg?width=500)
+![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
 
 ```json
 ?width=500
@@ -26,7 +26,7 @@ Transformations can be chained together to apply multiple changes to an image.
 
 #### Width and quality
 
-![](https://preview-develop.cloud.contensis.com/image-library/Stock-Images/artists-works.jpg?width=300&quality=50)
+![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=300&quality=50)
 
 ```json
 ?width=300&quality=50
@@ -36,7 +36,7 @@ Transformations can be chained together to apply multiple changes to an image.
 
 #### Width, quality and grayscale effect
 
-![](https://preview-develop.cloud.contensis.com/image-library/Stock-Images/artists-works.jpg?width=400&quality=50&effect=grayscale)
+![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=400&quality=50&effect=grayscale)
 
 ```json
 ?width=400&quality=50&effect=grayscale

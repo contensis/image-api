@@ -6,7 +6,8 @@
       "fontsettings",
       "-highlight",
       "prism",
-      "heading-anchors"
+      "heading-anchors",
+      "include-html"
     ],
     "pluginsConfig": {
       "fontsettings": {

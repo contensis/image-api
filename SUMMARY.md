@@ -2,13 +2,19 @@
 
 * Image API
 * [Overview](README.md)
+* [Fundamentals](/introduction/fundamentals.md)
 * [Supported formats](/introduction/supported-formats.md)
 * [Multiple transformations](/introduction/multiple-transformations.md)
 
+* Cropping
+* [Scaled anchor crop](/crop/scaled-crop.md)
+* [Anchored crop](/crop/crop.md)
+* [Exact crop](/crop/exact.md)
+* [Focal crop](/crop/focal-crop.md)
 
-* Resizing and cropping
+
+* Resizing
 * [Resizing](/scale-crop/resizing.md)
-* [Cropping](/scale-crop/cropping.md)
 
 
 * Applying effects and filters

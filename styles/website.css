@@ -100,3 +100,19 @@ background-color: #e09d43;
 .chapter span {
   font-weight: bold;
 }
+
+
+.flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.list {list-style-type: none; }
+
+.pl0 {padding-left: 0;}
+
+.mt0 {margin-top: 0;}
+.mt4 {margin-top: 4em;}
