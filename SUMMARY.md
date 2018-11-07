@@ -5,6 +5,8 @@
 * [Fundamentals](/introduction/fundamentals.md)
 * [Supported formats](/introduction/supported-formats.md)
 * [Multiple transformations](/introduction/multiple-transformations.md)
+* [Caching](/introduction/caching.md)
+
 
 * Cropping
 * [Scaled anchor crop](/crop/scaled-crop.md)
