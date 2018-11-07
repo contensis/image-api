@@ -1,30 +1,21 @@
-# Blur
+# Gaussian blur
 
-## Original
+The `blur` parameter applies a gaussian style blur to your image, smoothing out any image noise or to reduce the complexity of the image. It accepts values in the range of 1-100.
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
+---
 
+## Blur by 3
 
-## Blur by 3%
+!INCLUDE "../examples/blur-3.html"
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&blur=3)
+---
 
-```
-?blur=3
-```
+## Blur by 20
 
-## Blur by 20%
+!INCLUDE "../examples/blur-20.html"
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&blur=20)
+---
 
-```
-?blur=20
-```
+## Blur by 50
 
-## Blur by 50%
-
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&blur=50)
-
-```
-?blur=50
-```
+!INCLUDE "../examples/blur-50.html"

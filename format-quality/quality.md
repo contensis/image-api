@@ -1,6 +1,6 @@
 # Image quality
 
-The quality `quality` or `q` parameter provides control over the compression level of images. The value is an integer between 0 and 100. A lower number represents a lower-quality output image with a smaller file size and vice-versa.
+The `quality` or `q` parameter provides control over the compression level of images. The value is an integer between 0 and 100. A lower number represents a lower-quality output image with a smaller file size and vice-versa.
 
 ```http
 https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=400&quality=50

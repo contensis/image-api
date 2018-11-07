@@ -1,40 +1,33 @@
-# Changing format
+# Output format
 
 The format `format` or `f` parameter enables the source image to be converted from one format to another. Valid values for the `format` parameter are gif, png, jpg, and webp.
 
 The source image can be any of the following image formats: gif, png, jpeg, and webp.
 
-`https://zenhub.zengenti.com/image-examples/tree-frog.jpg?format=png`
+---
 
-## Format PNG
+## PNG
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&format=png)
+The PNG file format is a lossless format. It does support transparency. It does not support animation.
 
-```
-?format=png
-```
+The PNG file format is a common graphics format, often used for application assets such as logos and icons.
 
-## Format JPG
+!INCLUDE "../examples/format-png.html"
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&format=jpg)
+---
 
-```
-?format=jpg
-```
+## JPG
 
-## Format WebP
+JPEG is a lossy format. It does not support transparency or animation.
 
-The WebP format is currently only supported in Chrome.
+JPEG is one of the most common formats on the web. It excels at displaying photographs. See the [quality](quality.md) parameter for controlling the quality of the image.
 
-<picture>
-    <source srcset="https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&format=webp" type="image/webp">
-    <img src="https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&effect=grayscale">
-</picture>
+!INCLUDE "../examples/format-jpg.html"
 
-> If you're seeing a black and white image you'll need to open this page in Chrome.
+---
 
-```
-?format=webp
-```
+## WebP
 
+The WebP format browser support is currently limited. For a list of browsers that support WebP, please see the [WebP section](https://caniuse.com/#feat=webp) on caniuse.com.
 
+!INCLUDE "../examples/format-webp.html"

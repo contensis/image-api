@@ -1,33 +1,24 @@
 # Rotation
 
+The `rotate` or `r` parameter allows you to rotate an image by any arbitrary angle in degrees. The value is an integer between 0 and 359, rotating the image clockwise. If the angle is not a multiple of 90 then a rectangular bounding box is added containing the rotated image and empty space, the background color can be specified by the `background` or `bg` parameter hex value.
 
-## Original
-
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
-
+---
 
 ## Rotate by 90 degrees
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&rotate=90)
+!INCLUDE "../examples/rotate-90.html"
 
-```
-?rotate=90
-```
+---
 
 ## Rotate by 180 degrees
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&rotate=180)
+!INCLUDE "../examples/rotate-180.html"
 
-```
-?rotate=180
-```
+---
 
-## Rotate by 270 degrees
+## Rotate by 340 degrees
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&rotate=270)
+!INCLUDE "../examples/rotate-340.html"
 
-```
-?rotate=270
-```
 
 

@@ -17,14 +17,14 @@
 * [Resizing](/size/resizing.md)
 * [Stretch](/size/fit-stretch.md)
 * [Fill](/size/fit-fill.md)
-
+* [Contain](/size/fit-contain.md)
 
 
 * Applying effects and filters
-* [Grayscale](/effects/grayscale.md)
-* [Blur](/effects/blur.md)
 * [Rotation](/effects/rotation.md)
 * [Flip](/effects/flip.md)
+* [Grayscale](/effects/grayscale.md)
+* [Blur](/effects/blur.md)
 
 
 * Format and quality

@@ -2,24 +2,38 @@
 
 The Image API allows the retrieval and manipulation of image files referenced from assets.
 
-The JSON for an asset looks like this:
+The simplified JSON for an asset looks like this:
 
 ```json
-"fields": {
-    "title": "Playsam Streamliner",
-    "file": {
-      "fileName": "quwowooybuqbl6ntboz3.jpg",
-      "contentType": "image/jpg",
-      "details": {
-        "image": {
-          "width": 600,
-          "height": 446
+{
+    "posterImage": {
+        "asset": {
+            "title": "Batman-Begins",
+            "altText": "Batman-Begins",
+            "sys": {
+                "id": "fa640664-6101-48bc-a1e0-80b9e7ce1280",
+                "uri": "/images/Movies/Batman-Begins.x12dfb762.jpg",
+                "baseUris": [
+                    "https://live.contensis.com",
+                    "https://preview.contensis.com"
+                ],
+                "projectId": "website",
+                "contentTypeId": "image",
+                "dataFormat": "asset",
+                "language": "en-GB",
+                "properties": {
+                    "filename": "Batman-Begins.jpg",
+                    "fileSize": 35403,
+                    "fileId": "fa640664-6101-48bc-a1e0-80b9e7ce1280",
+                    "width": 342,
+                    "height": 513
+                }
+            }
         },
-        "size": 27187
-      },
-      "url": "//images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg"
+        "caption": "",
+        "altText": "",
+        "transformations": null
     }
-  }
+}
 ```
 
-This reference covers the parameters you can add to the URL specified in the `url` field to manipulate and convert images.

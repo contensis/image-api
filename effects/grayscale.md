@@ -1,15 +1,7 @@
 # Grayscale
 
-## Original
+To easily convert an image to grayscale you can use the `effect` or `e` parameter with a value of `grayscale`.
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
+---
 
-
-## Grayscale
-
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&effect=grayscale)
-
-```
-?effect=grayscale
-```
-
+!INCLUDE "../examples/grayscale.html"

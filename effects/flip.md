@@ -1,34 +1,22 @@
 # Flip
 
+The `flip` parameter enables and image to be flipped on the `horizontal` or `vertical` axis, or on `both` axes.
 
+---
 
-## Original
+## Flip image on horizontal axis
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
+!INCLUDE "../examples/flip-horizontal.html"
 
+---
 
-## Flip horizontal
+## Flip image on vertical axis
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&flip=horizontal)
+!INCLUDE "../examples/flip-vertical.html"
 
-```
-?flip=horizontal
-```
+---
 
-## Flip vertical
+## Flip image on both axes
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&flip=vertical)
-
-```
-?flip=vertical
-```
-
-## Flip both
-
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500&flip=both)
-
-```
-?flip=both
-```
-
+!INCLUDE "../examples/flip-both.html"
 
