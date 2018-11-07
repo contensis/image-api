@@ -19,14 +19,14 @@ Extract a region of the original image with a given width and height. You can sp
 ## Anchor
 
 
-Standard | Short | Position
----------|----------
- top | t | Top
- top-right | tr| Top right
- right | r |Right
- bottom-right | br | Bottom right
- bottom | b | Bottom
- bottom-left | bl | Bottom left
- left | l | Left
- top-left | tl | Top left
- center | c | Center
+Position | Standard | Short
+---------|-----------------
+Top | top | t
+Top right |  top-right | tr
+Right | right | r
+Bottom right | bottom-right | br
+Bottom | bottom | b
+Bottom left | bottom-left | bl
+Left | left | l
+Top left | top-left | tl
+Center | center| c
