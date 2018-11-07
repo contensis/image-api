@@ -10,7 +10,6 @@
 * [Scaled anchor crop](/crop/scaled-crop.md)
 * [Anchored crop](/crop/crop.md)
 * [Exact crop](/crop/exact.md)
-* [Focal crop](/crop/focal-crop.md)
 
 
 * Size
