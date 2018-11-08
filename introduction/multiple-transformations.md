@@ -1,43 +1,19 @@
 # Multiple transformations
 
-Transformations can be chained together to apply multiple changes to an image.
+Transformations can be combined together to apply multiple changes to an image as part of a single delivery request, e.g. crop an image and then apply a grayscale image effect. In certain cases you may want to perform additional transformations on the result of another transformation request. In order to do that, you can chain the transformations together using an `&` ampersand character.
 
-## Example
+## Width
 
-`https://preview-imageapi.cloud.contensis.com/image-library/Stock-Images/artists-works.jpg`
+!INCLUDE "../examples/mt-w.html"
 
-### Transformations
+---
 
-* ?width=200
-* ?width=200?quality=50
-* ?width=200?quality=50?format=webp
+## Width and quality
 
-### Transformation applied
+!INCLUDE "../examples/mt-w-q.html"
 
-#### Width
+---
 
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=500)
+## Width, quality and grayscale effect
 
-```json
-?width=500
-```
-
-
-
-#### Width and quality
-
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=300&quality=50)
-
-```json
-?width=300&quality=50
-```
-
-
-
-#### Width, quality and grayscale effect
-
-![](https://zenhub.zengenti.com/image-examples/tree-frog.jpg?width=400&quality=50&effect=grayscale)
-
-```json
-?width=400&quality=50&effect=grayscale
-```
+!INCLUDE "../examples/mt-w-q-e.html"
