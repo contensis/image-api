@@ -1,94 +1,36 @@
 # Scaled crop
 
+The scaled crop mode defines how the image should be scaled and aligned when the `fit=crop` parameter is set. The `width` and `height` parameters set both the crop dimensions and initial resize of the image. This crop mode ensures the image is always being cropped to the exact dimensions specified, and results some of the original image being cut off.
 
-## Portrait
-
-### Resize width and height
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200)
-
-### Crop image to width/height from center
-
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop
-```
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop)
-
-### Crop image to width/height from top
-
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-top
-```
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-top)
-
-### Crop image to width/height from right
-
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-right
-```
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-right)
-
-### Crop image to width/height from bottom
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-bottom
-```
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-bottom)
-
-### Crop image to width/height from left
-
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-left
-```
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern-portrait.png?width=200&height=200&fit=crop-left)
+Valid values for the crop position are `top`, `bottom`, `left`, `right`. If no value is explicitly set, the default behavior is to crop from the center of the image.
 
 
-## Landscape
+---
 
-### Resize width and height
+## Crop from center
 
-```
-(https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200
-```
+!INCLUDE "../examples/scale-crop.html"
 
-![](https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200)
+---
 
-### Crop image to width/height from center
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop
-```
+## Crop from top
 
-![](https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop)
+!INCLUDE "../examples/scale-crop-top.html"
 
-### Crop image to width/height from top
+---
 
-![](https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-top)
+## Crop from right
 
-### Crop image to width/height from right
+!INCLUDE "../examples/scale-crop-right.html"
 
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-right
-```
+---
 
-![](https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-right)
+## Crop from bottom
 
-### Crop image to width/height from bottom
+!INCLUDE "../examples/scale-crop-bottom.html"
 
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-bottom
-```
+---
 
-![](https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-bottom)
+## Crop from left
 
-### Crop image to width/height from left
-
-```
-https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-left
-```
-
-![](https://zenhub.zengenti.com/image-examples/crop-pattern.png?width=200&height=200&fit=crop-left)
-
+!INCLUDE "../examples/scale-crop-left.html"
