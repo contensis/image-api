@@ -17,9 +17,11 @@ Developers generally want to provide the same image in multiple resolutions, so 
 <p data-height="450" data-theme-id="dark" data-slug-hash="vQLLjY" data-default-tab="html,result" data-user="zengenti" data-pen-title="Resolution-based selection" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/zengenti/pen/vQLLjY/">Resolution-based selection</a> by Zengenti (<a href="https://codepen.io/zengenti">@zengenti</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+[View CodePen](https://codepen.io/zengenti/pen/vQLLjY/)
+
 ## Viewport based selection
 
-Image dimensions in responsive layouts tend to vary according to the size of the viewport. This often results in images with large dimensions (e.g. 2x or more times the size of the viewport) being sent to browsers with narrow viewports, which are then resized by the browser to fit the design. Ideally, developers should serve images that match the user's viewport dimensions.
+Image dimensions in responsive layouts tend to vary according to the size of the viewport. This often results in images with large dimensions (e.g. 2x or more times the size of the viewport) being sent to browsers with a narrow viewport, which are then resized by the browser to fit the design. Ideally, developers should serve images that match the user's viewport dimensions.
 
 For example, a 1000px wide image might be appropriate as a 1x image when used to fill the background of the page, but it’s far too large to use for the same purpose on a 320px wide screen. On a screen that small, it’s more like a 2x or 3x image. In other words, the same image might be applicable to multiple viewport sizes, but at different effective resolutions.
 
@@ -42,6 +44,8 @@ To avoid sending excess data, developers can use `srcset` along with the `size` 
 <p data-height="450" data-theme-id="dark" data-slug-hash="JeGGaz" data-default-tab="html,result" data-user="zengenti" data-pen-title="Viewport-based selection" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/zengenti/pen/JeGGaz/">Viewport-based selection</a> by Zengenti (<a href="https://codepen.io/zengenti">@zengenti</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+[View CodePen](https://codepen.io/zengenti/pen/JeGGaz/)
+
 ## Device-pixel-ratio-based selection
 
 Many new devices offer high resolution displays often branded with terms such as retina, FHD or QHD. These devices have a device-pixel-ratio greater than one. The higher the pixel density, the more pixels an image needs to have to look good. Higher image resolutions are required to reduce visual artifacts resulting from compression. Display density descriptors are a helpful approach when you know the types of devices you are targeting.
@@ -57,3 +61,5 @@ Many new devices offer high resolution displays often branded with terms such as
 
 <p data-height="450" data-theme-id="dark" data-slug-hash="gQPPZM" data-default-tab="html,result" data-user="zengenti" data-pen-title="Device-pixel-ratio-based selection" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/zengenti/pen/gQPPZM/">Device-pixel-ratio-based selection</a> by Zengenti (<a href="https://codepen.io/zengenti">@zengenti</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+[View CodePen](https://codepen.io/zengenti/pen/gQPPZM/)
