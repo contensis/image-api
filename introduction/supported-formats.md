@@ -7,7 +7,7 @@ The Image API supports the delivery of the following formats.
 Format | Extensions | Transformations
 ---------|----------|---------
  JPG | .jpg | Yes
- Animate GIF | .gif | Yes
+ Animated GIF | .gif | Yes
  GIF | .gif | Yes
  BMP | .bmp | No
  WebP | .webp | Yes
