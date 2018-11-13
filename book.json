@@ -1,6 +1,14 @@
 {
     "title": "Contensis Image API",
-    "language": "en-GB",   
+    "language": "en-GB",
+    "links": {
+      "sidebar": {
+        "Development Home": "#",
+        "HTTP Delivery API": "/contensis/api/delivery/http/",
+        ".NET Delivery API": "/contensis/api/delivery/dotnet/",
+        "JavaScript Delivery API": "/contensis/api/delivery/js/"
+      }
+    },   
     "plugins": [
       "-sharing",
       "fontsettings",
