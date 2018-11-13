@@ -13,7 +13,7 @@ When visiting a website for the first time, your browser retains information tha
 
 ## Problem with caching
 
-Sometimes caching can be too aggressive which results in changes made to resources not being visible to the browser. This can be especially frustrating for images when you are expecting a visual change to be apparent.
+Sometimes caching can be too aggressive which results in changes made to resources not being visible to the browser. This can be especially frustrating when replacing images to make a visual change. In order to avoid these issues the amount of time a resource is cached needs to be considered carefully and cache busting techniques need to be in place.
 
 ## Standard image cache - 1 day
 
