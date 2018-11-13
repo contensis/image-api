@@ -45,14 +45,14 @@ This means all images with a hash in their filename are cached publicly (e.g. by
 
 ## Invalidation key
 
-If you choose to reference images outside of the Delivery API context we have an additional parameter that enables you to set a 1 year cache-control header. Simply append the `invalidationKey=1.0` parameter to the image url.
+If you choose to reference images outside of the Delivery API context we have an additional query string parameter that enables you to set a one year cache-control header. Simply append the `invalidationKey` parameter to the image URL e.g. `/images/example.jpg?invalidationkey=1.0`. If you are using this method then you must ensure you update the `invalidationkey` when the source image changes.
 
 ## Caching of images referenced in static files
 
-If you want benefit from the caching of images referenced in CSS/JS files you'll need to roll your own cache busting hash and combine with our `invalidationKey` parameter.
+If you want benefit from the caching of images referenced in CSS/JS files you'll need to roll your own cache busting. You can use either the hash method or the `invalidationkey` query string parameter.
 
 The format of the the hash we use is:
 
 The letter x followed by 8 hexadecimal characters (e.g. 0-9 and a-f) e.g. `x3897116b`
 
-If you are using a build tool like gulp you can use an NPM package like [gulp-filehash](https://www.npmjs.com/package/gulp-filehash) that can be templated to the same format that we use.
+If you are using a build tool such as gulp you can use an NPM package like [gulp-filehash](https://www.npmjs.com/package/gulp-filehash) that can be templated to the same format that we use.
