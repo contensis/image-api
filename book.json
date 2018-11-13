@@ -3,7 +3,7 @@
     "language": "en-GB",
     "links": {
       "sidebar": {
-        "Development Home": "#",
+        "Development Home": "/contensis/11.3/development/Contensis-developer.aspx",
         "HTTP Delivery API": "/contensis/api/delivery/http/",
         ".NET Delivery API": "/contensis/api/delivery/dotnet/",
         "JavaScript Delivery API": "/contensis/api/delivery/js/"
