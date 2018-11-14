@@ -8,17 +8,17 @@
 * [Caching](/introduction/caching.md)
 
 
-* Cropping
-* [Scaled anchor crop](/cropping/scaled-anchor-crop.md)
-* [Anchored crop](/cropping/anchored-crop.md)
-* [Exact crop](/cropping/exact-crop.md)
-
-
-* Size and scaling
+* Cropping and scaling
+* [Crop](/cropping/crop.md)
 * [Resizing](/size/resizing.md)
 * [Stretch](/size/fit-stretch.md)
 * [Fill](/size/fit-fill.md)
 * [Contain](/size/fit-contain.md)
+
+
+* Advanced cropping
+* [Anchored crop](/cropping/anchored-crop.md)
+* [Exact crop](/cropping/exact-crop.md)
 
 
 * Applying effects and filters
