@@ -9,9 +9,9 @@
 
 
 * Cropping
-* [Scaled anchor crop](/crop/scaled-crop.md)
-* [Anchored crop](/crop/crop.md)
-* [Exact crop](/crop/exact.md)
+* [Scaled anchor crop](/cropping/scaled-anchor-crop.md)
+* [Anchored crop](/cropping/anchored-crop.md)
+* [Exact crop](/cropping/exact-crop.md)
 
 
 * Size

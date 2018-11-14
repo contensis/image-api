@@ -1,3 +1,7 @@
+---
+description: The anchored crop mode extracts a region of the original image to the exact dimensions specified from a specific location.
+---
+
 # Anchored crop
 
 Extract a region of the original image with a given width and height. You can specify the [anchor](#anchor) parameter to select which part of the image to extract, or use exact [coordinate cropping](exact.md).
