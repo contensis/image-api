@@ -1,3 +1,7 @@
+---
+description: The article explains how you can apply a gaussian style blur to your image, smoothing out image noise.
+---
+
 # Gaussian blur
 
 The `blur` parameter applies a gaussian style blur to your image, smoothing out any image noise or to reduce the complexity of the image. It accepts values in the range of 1-100.

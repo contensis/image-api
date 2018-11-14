@@ -1,3 +1,7 @@
+---
+description: This article outlines how you can flip an image horizontally, vertically, or on both axes. 
+---
+
 # Flip
 
 The `flip` parameter enables and image to be flipped on the `horizontal` or `vertical` axis, or on `both` axes.
