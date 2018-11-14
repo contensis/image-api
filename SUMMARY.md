@@ -8,9 +8,9 @@
 * [Caching](/introduction/caching.md)
 
 
-* Cropping and scaling
-* [Crop](/cropping/crop.md)
+* Scaling and cropping
 * [Resizing](/size/resizing.md)
+* [Crop](/cropping/crop.md)
 * [Stretch](/size/fit-stretch.md)
 * [Fill](/size/fit-fill.md)
 * [Contain](/size/fit-contain.md)
