@@ -14,7 +14,7 @@
 * [Exact crop](/cropping/exact-crop.md)
 
 
-* Size
+* Size and scaling
 * [Resizing](/size/resizing.md)
 * [Stretch](/size/fit-stretch.md)
 * [Fill](/size/fit-fill.md)

@@ -1,6 +1,7 @@
 ---
-description: Caching plays an important role in delivering images to the browser. This article outlines the steps that we have taken to ensure images are performant.
+description: This article outlines the caching steps that we have taken to ensure images are delivered in a performant way.
 ---
+
 # Image caching
 
 ## What is caching?

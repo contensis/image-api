@@ -1,5 +1,5 @@
 ---
-description: The scaled anchor crop mode ensures the image is always cropped to the exact dimensions specified from a specific location, and results some of the original image being cut off.
+description: A scaled anchor crop allows the image to be cropped to exact dimensions from a set location, whilst cutting off some of the original image.
 ---
 # Scaled crop
 

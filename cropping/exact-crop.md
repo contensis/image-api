@@ -1,5 +1,5 @@
 ---
-description: The exact crop mode defines a region of the original image with a given width and height and coordinates where the crop should be started.
+description: The exact crop mode defines a region of the original image with a set width and height, with coordinates where the crop should originate.
 ---
 
 # Exact
