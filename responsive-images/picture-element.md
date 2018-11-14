@@ -1,3 +1,7 @@
+---
+description: This article provides an example of how you can art direct images with the Image API.
+---
+
 # Picture
 
 ## Art direction

@@ -1,3 +1,7 @@
+---
+description: This article outlines how you can change the image format of an image using the Image API.
+---
+
 # Output format
 
 The format `format` or `f` parameter enables the source image to be converted from one format to another. Valid values for the `format` parameter are gif, png, jpg, and webp.
@@ -29,5 +33,7 @@ JPEG is one of the most common formats on the web. It excels at displaying photo
 ## WebP
 
 The WebP format browser support is currently limited. For a list of browsers that support WebP, please see the [WebP section](https://caniuse.com/#feat=webp) on caniuse.com.
+
+If you choose to use the WebP format and the browser does not support it, we'll return a JPG in place of the WebP.
 
 !INCLUDE "../examples/format-webp.html"

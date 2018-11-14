@@ -1,3 +1,7 @@
+---
+description: This article shows some examples of how you can use the the Image API with the srcset attribute.
+---
+
 # Srcset
 
 ## Resolution-based selection
