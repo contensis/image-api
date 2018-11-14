@@ -1,3 +1,6 @@
+---
+description: Caching plays an important role in delivering images to the browser. This article outlines the steps that we have taken to ensure images are performant.
+---
 # Image caching
 
 ## What is caching?
@@ -19,7 +22,7 @@ Sometimes caching can be too aggressive which results in changes made to resourc
 
 Images accessed from Contensis outside of the Delivery API are returned with a [cache-control](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) header with a `max-age` of `86400`.
 
-```
+```http
 Cache-Control: public, max-age of 86400 
 ```
 
@@ -28,6 +31,7 @@ This [directive](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache
 With this policy, the browser completely skips the process of making requests to your server and opens files very fast. Any subsequent changes to the file in the 24 hour period will not be visible due to the cache control.
 
 ## Image caching in the Delivery API - 1 year
+
 When requesting an image through the Delivery API we add a unique hash to the filename of the image. Please refer to the [fundamentals](fundamentals.md) page to see a full JSON example.
 
 ```http

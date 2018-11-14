@@ -1,3 +1,7 @@
+---
+description: The fundamentals of the Image API combining query string parameters with the uri of an image.
+---
+
 # Fundamentals
 
 Image transformations work by applying the query parameters of the transformation  to the `uri` of an image. The `uri` for the image can be found in the `uri` attribute of and [image](https://developer.zengenti.com/contensis/api/delivery/http/model/asset.html) assets sys object, returned in the JSON response.
