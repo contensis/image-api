@@ -12,6 +12,7 @@ Format | Extensions | Transformations
 ---------|----------|---------
  JPG | .jpg | Yes
  Animated GIF | .gif | Yes
+ PNG | .png | Yes
  GIF | .gif | Yes
  BMP | .bmp | No
  WebP | .webp | Yes
